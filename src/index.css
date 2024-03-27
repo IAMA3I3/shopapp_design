@@ -4,10 +4,10 @@
 
 @layer base {
   html {
-    @apply bg-gray-200 text-gray-800 cursor-default
+    @apply bg-white text-gray-800 cursor-default
   }
   body {
-    @apply relative min-h-screen min-w-full dark:bg-gray-600 dark:text-white
+    @apply relative min-h-screen min-w-full dark:bg-gray-600 dark:text-white w-screen overflow-x-hidden
   }
   .scrollbar::-webkit-scrollbar,
   html::-webkit-scrollbar {

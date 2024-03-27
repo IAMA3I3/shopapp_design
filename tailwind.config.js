@@ -16,6 +16,10 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        primary: '#E11054',
+        // ...
+      },
       transitionProperty: {
         'height': 'height',
         'spacing': 'margin, padding',
