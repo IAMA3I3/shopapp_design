@@ -29,4 +29,8 @@
   button {
     @apply  px-4 py-2 uppercase tracking-wide rounded-md active:scale-95
   }
+
+  .swiper-slide.tranding-slide {
+    background: blue!important;
+  } 
 }

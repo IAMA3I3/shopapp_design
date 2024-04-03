@@ -4,7 +4,7 @@ import { IoSearch } from "react-icons/io5";
 const ShowCase = ({ img, bgColor }) => {
 
     return (
-        <div className=" relative h-[60vh] md:h-screen w-screen bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${img})` }}>
+        <div className=" relative h-[60vh] md:h-[95vh] w-screen bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${img})` }}>
             <div className={`${bgColor} w-full h-full flex flex-col justify-center items-center md:pb-40 text-white pb-0`}>
                 <div className=" w-[90%] max-w-[600px]">
                     <div className=" text-2xl text-center tracking-wide">Stopshop360 is the easiest way to <span className=" text-primary font-semibold">GET</span> & <span className=" text-primary font-semibold">PROVIDE</span> perfect Fashion & Beauty Services at any location</div>
